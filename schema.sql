@@ -13,16 +13,16 @@ CREATE TABLE products (
 );
  
 INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
-    VALUES ("Television", "Electronics", 230.00, 50, 300.00),
-            ("Jacket", "Clothing", 80.00, 10, 30.00),
-            ("Desk", "Furniture", 140.00, 40, 400.00),
+    VALUES ("Atari", "Electronics", 230.00, 50, 300.00),
+            ("Turneck", "Clothing", 30.00, 10, 30.00),
+            ("Yoga mat", "Furniture", 40.00, 40, 400.00),
             ("Cell Phone", "Electronics", 500.00, 20, 700.00),
-            ("Bed", "Furniture", 820.00, 10, 0),
-            ("Sofa", "Furniture", 400.00, 4, 800),
-            ("Book shelf", "Furniture", 65.00, 5, 500.00),
-            ("Dress", "Clothing", 45.00, 10, 240.00),
+            ("Pillow", "Furniture", 20.00, 10, 0),
+            ("Chair", "Furniture", 40.00, 4, 800),
+            ("Shelf", "Furniture", 65.00, 5, 500.00),
+            ("Dress", "Clothing", 445.00, 10, 240.00),
             ("Pants", "Clothing", 68.00, 25, 300.00),
-            ("Pajamas", "Clothing", 23.00, 30, 100.00);
+            ("Jshorts", "Clothing", 123.00, 30, 100.00);
 
 CREATE TABLE departments (
     department_id INT AUTO_INCREMENT,
